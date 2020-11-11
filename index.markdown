@@ -6,8 +6,8 @@ layout: default
 title: Coolturus
 subtitle: About
 ---
-### Coolturus
-[coolturus](https://coolturus.com)
+# COOLTURUS
+## Tu agenda cultural
 
 En Coolturus promovemos la cultura. Buscamos nuevas formas de fomentar el arte para hacerlo más cercano y accesible.
 
