@@ -1,0 +1,229 @@
+header {
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem 1rem;
+
+  .title {
+    display: flex;
+
+    img {
+      height: 50px;
+    }
+  }
+
+  &.fixed-nav {
+    position: fixed;
+    /* fallback for old browsers */
+    background: #51ad87;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #51ad87, #63bb97);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #51ad87, #63bb97);
+    border-bottom: 1px solid $grey-color-light;
+    width: calc(100% - 2rem);
+    z-index: 1;
+    animation: 0.5s ease-out 0s 1 slideInFromTop;
+  }
+
+  .sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    ul {
+      margin-bottom: 0;
+
+      li {
+        display: inline-block;
+        margin-left: 1rem;
+      }
+    }
+  }
+}
+
+main {
+
+}
+
+/**
+ * Page content
+ */
+ .page-content {
+  margin-top: 60px;
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page-heading {
+  @include relative-font-size(2);
+}
+
+.post-list-heading {
+  @include relative-font-size(1.75);
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+
+  >li {
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.post-meta {
+  font-size: $small-font-size;
+  color: $grey-color;
+}
+
+.post-link {
+  display: block;
+  @include relative-font-size(1.5);
+}
+
+.site-title {
+  @include relative-font-size(1.625);
+  font-weight: 300;
+  line-height: $base-line-height * $base-font-size * 2.25;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left;
+
+  &,
+  &:visited {
+    color: $grey-color-dark;
+  }
+}
+
+.site-nav {
+  float: right;
+  line-height: $base-line-height * $base-font-size * 2.25;
+
+  .nav-trigger {
+    display: none;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    color: $text-color;
+    line-height: $base-line-height;
+
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+
+    &:hover {
+      color: $primary-green;
+      text-decoration: none;
+    }
+  }
+
+  @include media-query($on-palm) {
+    position: absolute;
+    top: 9px;
+    right: $spacing-unit / 2;
+    background-color: $background-color;
+    border: 1px solid $grey-color-light;
+    border-radius: 5px;
+    text-align: right;
+
+    label[for="nav-trigger"] {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 36px;
+      z-index: 2;
+      cursor: pointer;
+    }
+
+    .menu-icon {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 10px;
+      text-align: center;
+
+      >svg {
+        fill: $grey-color-dark;
+      }
+    }
+
+    input~.trigger {
+      clear: both;
+      display: none;
+    }
+
+    input:checked~.trigger {
+      display: block;
+      padding-bottom: 5px;
+    }
+
+    .page-link {
+      display: block;
+      padding: 5px 10px;
+
+      &:not(:last-child) {
+        margin-right: 0;
+      }
+
+      margin-left: 20px;
+    }
+  }
+}
+
+
+.site-footer {
+  border-top: 1px solid $grey-color-light;
+  padding: $spacing-unit 0;
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    height: 58px;
+    @include media-query($on-palm) {
+      height: 38px;
+    }
+  }
+}
+
+.footer-heading {
+  @include relative-font-size(1.125);
+  margin-bottom: $spacing-unit / 2;
+}
+
+.contact-list,
+.social-media-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+.footer-col {
+  flex: 1;
+  float: left;
+  padding-left: $spacing-unit / 2;
+
+  ul {
+    margin-block-end: unset;
+  }
+}
+
+@include media-query($on-palm) {
+  .footer-col {
+    float: none;
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width: calc(100% - (#{$spacing-unit} / 2));
+  }
+}
