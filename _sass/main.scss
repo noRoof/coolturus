@@ -18,6 +18,7 @@
 html {
   height: 100%;
   box-sizing: border-box;
+  scroll-behavior: smooth
 }
 
 // Define defaults for each variable.
@@ -31,7 +32,7 @@ $base-line-height: 1.5 !default;
 $spacing-unit:     30px !default;
 
 $text-color:       #111 !default;
-$background-color: #fdfdfd !default;
+$background-color: ghostwhite !default;
 $brand-color:      #2a7ae2 !default;
 
 $grey-color:       #828282 !default;
@@ -69,5 +70,6 @@ $on-laptop:        900px !default;
 // Import partials.
 @import
   "coolturus/base",
-  "coolturus/layout"
+  "coolturus/layout",
+  "coolturus/animations"
 ;

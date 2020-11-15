@@ -1,11 +1,111 @@
-header {
-  .site-nav {
-    .page-link {
-      color: white;
-      opacity: 0.7;
+header.home-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
+  background: #fff;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eee, #fff);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eee, #fff);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  .banner {
+    flex: 1;
+    margin: 0 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @include media-query($on-palm) {
+      flex-direction: column;
+    }
+
+    .banner-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex: 1;
+
+      .banner-image-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4rem;
+  
+        img {
+          animation: 1s ease-out 0s 1 slideInFromBottom;
+          width: 600px;
+          height: 100%;
+          max-width: 80vw;
+        } 
+      }
+      
+      h1 {
+        color: #51ad87;
+        animation: 1s ease-out 0s 1 slideInFromLeft;
+        text-align: center;
+        @include media-query($on-palm) {
+          font-size: 34px;
+        }
+      }
+
+      h3 {
+        color: #405a5a;
+        animation: 1s ease-out 0s 1 slideInFromRight;
+        text-align: center;
+        @include media-query($on-palm) {
+          font-size: 24px;
+        }
+      }
+    }
+    
+  }
+  .scroll {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+
+    .triangle_down {
+      position: relative;
+      top: -5px;
+      content: "";
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      border-right: 0.2em solid black;
+      border-top: 0.2em solid black;
+      transform: rotate(135deg);
+      margin-right: 0.5em;
+      margin-left: 1.0em;
+      transition: 0.5s;
 
       &:hover {
-        color: white;
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.2rem 1rem;
+
+  .title {
+    display: none;
+
+    img {
+      height: 50px;
+    }
+  }
+
+  .site-nav {
+    .page-link {
+      color: $text-color;
+      opacity: 0.7;
+      transition: 0.3s;
+
+      &:hover {
+        color: $text-color;
         opacity: 1;
       }
 
@@ -13,35 +113,40 @@ header {
         color: $text-color;
       }
     }
-
-  }
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.2rem 1rem;
-
-  .title {
-    display: flex;
-
-    img {
-      height: 50px;
-    }
   }
 
   &.fixed-nav {
     position: fixed;
+    justify-content: space-between;
     /* fallback for old browsers */
     background: #51ad87;
     /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(to right, #51ad87, #63bb97);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, #51ad87, #63bb97);
     border-bottom: 1px solid $grey-color-light;
     width: calc(100% - 2rem);
     z-index: 1;
-    animation: 0.5s ease-out 0s 1 slideInFromTop;
+
+    &.animate {
+      animation: 0.5s ease-out 0s 1 slideInFromTop;
+    }
+
+    .title {
+      display: flex;
+    }
+
+    .site-nav {
+      .page-link {
+        color: white;
+        transition: 0.3s;
+
+        &:hover {
+          color: white;
+        }
+  
+        @include media-query($on-palm) {
+          color: $text-color;
+        }
+      }
+    }
   }
 
   .sections {
@@ -61,19 +166,34 @@ nav {
 }
 
 main {
+  padding: 0 8rem 4rem;
+  background-color: $background-color;
 
+  @include media-query($on-palm) {
+    padding: 5rem 1rem;
+  }
+
+  h2 {
+    font-size: 36px;
+    color: #405a5a;
+    margin-top: 5rem;
+  }
+
+  p {
+    font-size: 18px;
+  }
 }
 
 /**
  * Page content
  */
  .page-content {
-  margin-top: 60px;
   flex: 1;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-height: calc(100vh - 115px);
 }
 
 .page-heading {
@@ -246,7 +366,6 @@ main {
 }
 
 #contact {
-  background-color: #F0F7FA;
   padding: 7rem 0 6rem 0;
 
   @include media-query($on-palm) {

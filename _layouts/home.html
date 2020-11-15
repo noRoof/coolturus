@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include home-header.html -%}
+
+    <main id="content" class="page-content" aria-label="Content">
+      {{ content }}
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+  <script>
+    let scrollpos = window.scrollY
+    const header = document.querySelector("nav")
+    const header_height = document.querySelector("header").offsetHeight
+    const content = document.querySelector("#content")
+    const content_height = document.querySelector("#content").offsetHeight
+  
+    const add_class_on_scroll = () => header.classList.add("fixed-nav")
+    const remove_class_on_scroll = () => header.classList.remove("fixed-nav")
+    const add_show_class_on_scroll = (element) => element.classList.add("show")
+  
+    window.addEventListener('scroll', function() { 
+      scrollpos = window.scrollY;
+  
+      if (scrollpos >= header_height) { add_class_on_scroll() }
+      else { remove_class_on_scroll() }
+  
+      // if (scrollpos >= 220) { add_show_class_on_scroll(frontend) }
+
+    })
+  </script>
+</html>
