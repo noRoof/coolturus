@@ -50,7 +50,6 @@
  }
  
  footer {
-   min-height: 50px;
    background-color: #405a5a;
    color: white;
    a {
@@ -227,14 +226,14 @@
      width: 16px;
      height: 16px;
      display: inline-block;
-     fill: #{$grey-color};
+     fill: white;
      padding-right: 5px;
      vertical-align: text-top;
  }
  
  .social-media-list {
    li + li {
-     padding-top: 5px;
+     padding-left: 10px;
    }
  }
  

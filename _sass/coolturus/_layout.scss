@@ -43,6 +43,9 @@ header.home-header {
         color: #51ad87;
         animation: 1s ease-out 0s 1 slideInFromLeft;
         text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 48px;
+
         @include media-query($on-palm) {
           font-size: 34px;
         }
@@ -52,6 +55,9 @@ header.home-header {
         color: #405a5a;
         animation: 1s ease-out 0s 1 slideInFromRight;
         text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 24px;
+
         @include media-query($on-palm) {
           font-size: 24px;
         }
@@ -62,7 +68,7 @@ header.home-header {
   .scroll {
     display: flex;
     justify-content: center;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 
     .triangle_down {
       position: relative;
@@ -71,16 +77,13 @@ header.home-header {
       display: inline-block;
       width: 15px;
       height: 15px;
-      border-right: 0.2em solid black;
-      border-top: 0.2em solid black;
+      border-right: 0.2em solid #51ad87;
+      border-top: 0.2em solid #51ad87;
       transform: rotate(135deg);
       margin-right: 0.5em;
       margin-left: 1.0em;
-      transition: 0.5s;
-
-      &:hover {
-        margin-top: 20px;
-      }
+      animation: moveDown 1.5s infinite;
+      -webkit-animation: moveDown 1.5s infinite;
     }
   }
 }
@@ -169,8 +172,12 @@ main {
   padding: 0 8rem 4rem;
   background-color: $background-color;
 
+  @include media-query($on-laptop) {
+    padding: 0rem 4rem 2rem;
+  }
+
   @include media-query($on-palm) {
-    padding: 5rem 1rem;
+    padding: 1rem;
   }
 
   h2 {
@@ -193,7 +200,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: calc(100vh - 115px);
+  min-height: calc(100vh - 175px);
 }
 
 .page-heading {
@@ -324,12 +331,17 @@ main {
   padding: 1rem;
   display: flex;
   justify-content: space-between;
+  font-size: 14px;
 
   img {
     height: 58px;
     @include media-query($on-palm) {
       height: 38px;
     }
+  }
+
+  @include media-query($on-palm) {
+    flex-direction: column;
   }
 }
 
@@ -341,23 +353,32 @@ main {
 .contact-list,
 .social-media-list {
   list-style: none;
-  margin-left: 0;
+  margin-left: 1rem;
+
+  .username {
+    display: none;
+  }
 }
 
 .footer-col {
-  flex: 1;
   float: left;
   padding-left: $spacing-unit / 2;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
 
   ul {
     margin-block-end: unset;
+
+    li {
+      float: left;
+    }
   }
 
   p {
     margin-bottom: 0;
+  }
+
+  @include media-query($on-palm) {
+    justify-content: space-between;
   }
 }
 
@@ -366,7 +387,7 @@ main {
 }
 
 #contact {
-  padding: 7rem 0 6rem 0;
+  padding: 7rem 0 0 0;
 
   @include media-query($on-palm) {
     padding: 5rem 1rem;
@@ -384,6 +405,12 @@ main {
   p {
     margin-left: 8rem;
     margin-right: 8rem;
+
+    @include media-query($on-laptop) {
+      margin-left: 4rem;
+      margin-right: 4rem;
+    }
+
     @include media-query($on-palm) {
       margin-left: unset;
       margin-right: unset;
@@ -399,6 +426,7 @@ main {
 
   h2 {
     display: inline;
+    margin-top: 0;
   }
 
   img {
@@ -409,10 +437,8 @@ main {
 
 .form-container {
   width: 100%;
-  display: grid;
-  grid-template-columns: 0.2fr 1fr 0.5fr;
-  grid-column-gap: 2rem;
-
+  margin-top: 2rem;
+  
   @include media-query($on-palm) {
     width: unset;
     margin-left: unset;

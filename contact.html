@@ -6,44 +6,41 @@ layout: default
 title: Coolturus
 subtitle: Contacto
 ---
-<main id="contact">
+<section id="contact">
   <div class="contact-header">
-    <h2>Get in touch</h2><img class="show-small" src="{{ "/assets/img/mailbox.png" | relative_url }}" alt="noRoof development">
+    <h2>Contacto</h2>
   </div>
-  <p>If you want to talk about your next project, or you need some help with the one in progress,feel free to contact us at <span id="replace">javascript is not enabled, please use the contact form.</span>
-    or to write a message below.</p>
+  <p>Si quieres hablar con nosotros acerca de un evento, ser nuestro Sponsor, o nuevas ideas para fomentar la cultura local, puedes contactarnos a <span id="replace">javascript is not enabled, please use the contact form.</span>
+    o escribir un mensaje en el siguiente formulario.</p>
   <div class="form-container">
     <form class="contact-form" action="https://formspree.io/mbjkrvnz" method="post">
       <div class="form__group col-6 padding-right">
-        <input type="text" id="name" name="name" required maxlength="250" class="form__field" placeholder="Your Name">
-        <label for="name" class="form__label">Your Name</label>
+        <input type="text" id="name" name="name" required maxlength="250" class="form__field" placeholder="Tu Nombre">
+        <label for="name" class="form__label">Tu Nombre</label>
       </div>
       <div class="form__group col-6">
-        <input type="email" id="email" name="_replyto" required maxlength="250" class="form__field" placeholder="Your Email">
-        <label for="email" class="form__label">Your Email</label>
+        <input type="email" id="email" name="_replyto" required maxlength="250" class="form__field" placeholder="Tu Email">
+        <label for="email" class="form__label">Tu Email</label>
       </div>
       <div class="form__group col-12">
-        <input type="text" id="subject" name="subject" required maxlength="250" class="form__field" placeholder="Subject">
-        <label for="subject" class="form__label">Subject</label>
+        <input type="text" id="subject" name="subject" required maxlength="250" class="form__field" placeholder="Asunto">
+        <label for="subject" class="form__label">Asunto</label>
       </div>
 
       <div class="form__group col-12">
-        <textarea id="message" class="form__field" placeholder="Your Message" required maxlength="2500" name="message" rows="5"></textarea>
-        <label for="message" class="form__label">Your Message</label>
+        <textarea id="message" class="form__field" placeholder="Tu Mensaje" required maxlength="2500" name="message" rows="5"></textarea>
+        <label for="message" class="form__label">Tu Mensaje</label>
       </div>
-      <input type="hidden" name="_next" value="https://noroofdevelopment.com/thanks.html" />
+      <input type="hidden" name="_next" value="https://about.coolturus.com/thanks.html" />
       <input type="text" name="_gotcha" style="display:none" />
       <div class="form-buttons">
-        <button class="contact-btn" type="submit">Send</button>
+        <button class="contact-btn" type="submit">Enviar</button>
       </div>
     </form>
-    <div class="image-container">
-      <img class="hide-small" src="{{ "/assets/img/mailbox.png" | relative_url }}" alt="noRoof development">
-    </div>
   </div>
-</main>
+</section>
 <script>
   var innerEmail = document.getElementById('replace')
-  const emailE = ('hi@' + 'noroofdevelopment.com');
+  const emailE = ('hola@' + 'coolturus.com');
   innerEmail.innerHTML = '<a href="mailto:' + emailE + '">' + emailE + '</a>';
 </script>
