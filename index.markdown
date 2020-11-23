@@ -10,12 +10,12 @@ subtitle: About
 Coolturus nació para colaborar con la cultura local. Nuestra misión es conectar a todos los distintos espectros de la cultura con el público de manera de poder acercar a todas las partes. Creemos que la cultura vale la pena y por eso vale la pena compartirla. 
 
 ## Tu agenda cultural
-Nuestro primer paso es convertirnos en la agenda cultural local más completa y accesible que puedas encontrar. Brindando informacion sobre la mayor cantidad de eventos y actividades culturales que sea posible con el fin de acercarlos a todo público.
+Nuestro primer paso es convertirnos en la agenda cultural local más completa y accesible que puedas encontrar. Brindar información sobre la mayor cantidad de eventos y actividades culturales que sea posible con el fin de acercarlos a todo público.
 
-En una primera instancia, en nuestras redes sociales estaremos compartiendo eventos culturales que se realicen pero no nos quedamos en eso. Estamos trabajando en nuevas maneras de poder promocionar la cultura de manera gratuita y pronto estará disponible :)
+En una primera instancia, en nuestras redes sociales y en esta web estaremos compartiendo eventos culturales que se realicen, pero no nos quedaremos en eso. Estamos trabajando en nuevas maneras de poder promocionar la cultura de manera gratuita y pronto estará disponible :)
 
 ## Sponsors
-¿Tenes eventos culturales para promocionar? ¿Te gustaria fomentar actividades culturales? ¿O simplement te gustaria apoyar nuestra iniciativa? Tenes la posibilidad de ser nuestro Sponsor y ayudarnos a hacer posible nuestra iniciativa. Además contarás con algunos beneficios que a la brevedad podrás aprovechar ;) 
+¿Tenés eventos culturales para promocionar? ¿Te gustaría fomentar actividades culturales? ¿O simplemente te gustaría apoyar nuestra causa? Tenés la posibilidad de ser nuestro Sponsor y ayudarnos a hacer posible esta iniciativa. Además contarás con algunos beneficios que a la brevedad podrás aprovechar ;) 
 
 ## Potenciando la cultura
 Continuamente estamos evaluando distintas y nuevas maneras de fomentar la cultura local, siempre estamos abiertos a escuchar nuevas propuestas y formar nuevas alianzas, así que no dudes en [Contactarnos](/contact)!
