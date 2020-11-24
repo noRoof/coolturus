@@ -203,6 +203,10 @@ main {
   min-height: calc(100vh - 175px);
 }
 
+.has-fixed {
+  padding-top: 60px;
+}
+
 .page-heading {
   @include relative-font-size(2);
 }
