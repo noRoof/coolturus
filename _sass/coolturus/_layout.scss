@@ -200,11 +200,10 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: calc(100vh - 175px);
 }
 
 .has-fixed {
-  padding-top: 60px;
+  padding-top: 6rem;
 }
 
 .page-heading {
@@ -391,10 +390,10 @@ main {
 }
 
 #contact {
-  padding: 7rem 0 0 0;
+  padding: 0;
 
   @include media-query($on-palm) {
-    padding: 5rem 1rem;
+    padding: 1rem 1rem;
   }
 
   h3 {
