@@ -4,19 +4,21 @@ title: Coolturus
 subtitle: Próximas Actividades
 ---
 
+<div class="events-page">
 <h1>Próximas actividades</h1>
 <p>Mientras seguimos trabajando en nuestra nueva agenda cultural, tendremos este espacio para publicar por fecha toda la movida de la cultura local.</p>
 <p>Si estás buscando que hacer, o tenés algo para publicar, llegaste al lugar adecuado. Tatro, música en vivo, eventos gastronómicos, danza, exposisiones de arte, exposisiones fotográficas y toda muestra de cultura local puede ser difundida.</p>
-<p>¡No dudes en contactarnos para sugerirnos tu actividad o cualquier tipo de mejora!</p>
+<p>¡No dudes en <a href="/contacto">contactarnos</a> para sugerirnos tu actividad o cualquier tipo de mejora!</p>
 <section class="dates-list">
-{% for event in site.events %}
-  <article class="date-item">
-    <h2>
-      <a href="{{ event.url }}">
-        {{ event.label }}
-      </a>
-    </h2>
-    <p>{{ event.excerpt }}</p>
-  </article>
-{% endfor %}
+  {% for event in site.events %}
+    <article class="date-item">
+      <h2>
+        <a href="{{ event.url }}">
+          {{ event.label }}
+        </a>
+      </h2>
+      <p>{{ event.excerpt }}</p>
+    </article>
+  {% endfor %}
 </section>
+</div>

@@ -18,4 +18,4 @@ En una primera instancia, en nuestras redes sociales y en esta web estaremos com
 ¿Tenés eventos culturales para promocionar? ¿Te gustaría fomentar actividades culturales? ¿O simplemente te gustaría apoyar nuestra causa? Tenés la posibilidad de ser nuestro Sponsor y ayudarnos a hacer posible esta iniciativa. Además contarás con algunos beneficios que a la brevedad podrás aprovechar ;) 
 
 ## Potenciando la cultura
-Continuamente estamos evaluando distintas y nuevas maneras de fomentar la cultura local, siempre estamos abiertos a escuchar nuevas propuestas y formar nuevas alianzas. ¡No dudes en [Contactarnos](/contact)!
+Continuamente estamos evaluando distintas y nuevas maneras de fomentar la cultura local, siempre estamos abiertos a escuchar nuevas propuestas y formar nuevas alianzas. ¡No dudes en [Contactarnos](/contacto)!

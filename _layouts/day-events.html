@@ -9,7 +9,9 @@
 
     <main class="page-content has-fixed" aria-label="Content">
       <h1> {{page.label}} </h1>
-      {{ content }}
+      <section class="day-events">
+        {{ content }}
+      </section>
     </main>
 
     {%- include footer.html -%}
