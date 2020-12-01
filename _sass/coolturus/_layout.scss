@@ -187,6 +187,7 @@ main {
   }
 
   p {
+    text-align: left;
     font-size: 18px;
   }
 }
@@ -200,7 +201,50 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: calc(100vh - 175px);
+
+  .day-events {
+    p:first-child {
+      -webkit-column-span: all; 
+      column-span: all;
+    }
+    -webkit-columns: 3 400px;
+    -moz-columns: 3 300px;
+    columns: 3 300px;
+
+    -webkit-column-gap: 2em;
+    -moz-column-gap: 2em;
+    column-gap: 2em;
+
+    h2 {
+      -webkit-column-span: all; 
+      column-span: all; 
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    .capital {
+      margin-left: -1.3rem;
+      font-weight: 500;
+      padding-right: 0.5rem;
+      font-size: 20px;
+    }
+
+    @include media-query($on-palm) {
+      p {
+        margin-left: 2rem;
+      }
+
+      p:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+.has-fixed {
+  padding-top: 6rem;
 }
 
 .page-heading {
@@ -386,11 +430,31 @@ main {
   text-align: right;
 }
 
+.events-page {
+  h1 {
+    color: #405a5a;
+    font-size: 36px;
+  }
+
+  .dates-list {
+    margin-top: 4rem;
+    h2 {
+      text-align: left;
+      margin-top: 2rem;
+      font-size: 24px;
+    }
+  }
+
+  p {
+    text-align: left;
+  }
+}
+
 #contact {
-  padding: 7rem 0 0 0;
+  padding: 0;
 
   @include media-query($on-palm) {
-    padding: 5rem 1rem;
+    padding: 1rem 1rem;
   }
 
   h3 {
@@ -405,6 +469,7 @@ main {
   p {
     margin-left: 8rem;
     margin-right: 8rem;
+    text-align: left;
 
     @include media-query($on-laptop) {
       margin-left: 4rem;
