@@ -7,7 +7,7 @@ subtitle: Próximas Actividades
 <div class="events-page">
 <h1>Próximas actividades</h1>
 <p>Mientras seguimos trabajando en nuestra nueva agenda cultural, tendremos este espacio para publicar por fecha toda la movida de la cultura local.</p>
-<p>Si estás buscando que hacer, o tenés algo para publicar, llegaste al lugar adecuado. Tatro, música en vivo, eventos gastronómicos, danza, exposisiones de arte, exposisiones fotográficas y toda muestra de cultura local puede ser difundida.</p>
+<p>Si estás buscando qué hacer, o tenés algo para publicar, llegaste al lugar adecuado. Teatro, música en vivo, eventos gastronómicos, danza, exposiciones de arte, exposiciones fotográficas y toda muestra de cultura local puede ser difundida.</p>
 <p>¡No dudes en <a href="/contacto">contactarnos</a> para sugerirnos tu actividad o cualquier tipo de mejora!</p>
 <section class="dates-list">
   {% for event in site.events %}
@@ -18,6 +18,9 @@ subtitle: Próximas Actividades
         </a>
       </h2>
       <p>{{ event.excerpt }}</p>
+      <div class="events-buttons">
+        <a href="{{ event.url }}"><button class="events-btn">Ver eventos</button></a>
+      </div>
     </article>
   {% endfor %}
 </section>

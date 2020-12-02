@@ -448,6 +448,30 @@ main {
   p {
     text-align: left;
   }
+
+  .events-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1rem;
+
+    .events-btn {
+      background-color: white;
+      padding: 0.8rem 1.8rem;
+      border-radius: 10px;
+      box-shadow: inset 0 0 0 2px $primary-green;
+      transition: 300ms box-shadow cubic-bezier(0.4, 0, 0.6, 1), 300ms background-color cubic-bezier(0.4, 0, 0.6, 1), 300ms color cubic-bezier(0.4, 0, 0.6, 1);;
+      color: #474E51;
+      border: 0;
+      font-size: 16px;
+      cursor: pointer;
+
+      &:hover {
+        box-shadow: inset 0 0 0 4px $primary-green;
+        color: $primary-green;
+      }
+    }
+  }
 }
 
 #contact {
