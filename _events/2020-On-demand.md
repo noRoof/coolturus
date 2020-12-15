@@ -2,7 +2,7 @@
 layout: day-events
 title: Coolturus
 subtitle: On demand
-label: on demand
+label: On demand
 ---
 Tenemos algunas propuestas de eventos y producciones para que veas cuando tengas ganas. Pronto estaremos actualizándolas y agregando nuevas.
 ¡Contactanos si sabés de alguna!
