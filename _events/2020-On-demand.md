@@ -4,8 +4,11 @@ title: Coolturus
 subtitle: On demand
 label: On demand
 ---
-Tenemos algunas propuestas de eventos y producciones para que veas cuando tengas ganas. Pronto estaremos actualizándolas y agregando nuevas.
+Tenemos algunas propuestas de eventos y producciones para que disfrutes virtualmente. Pronto estaremos actualizándolas y agregando nuevas.
 ¡Contactanos si sabés de alguna!
+
+## Danza
+[Carmen - Versión Clásico Contemporánea](https://www.instagram.com/ifa.instituto/) Streaming el 19 de diciembre, 19hs.
 
 ## Teatro
 
