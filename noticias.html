@@ -1,0 +1,30 @@
+---
+layout: default
+title: Noticias
+---
+<section class="highlighted-news">
+  {% for highlight in site.news %}
+    {% if highlight.highlight %}
+      <article>
+        <img src="{{highlight.picture}}" alt="{{highlight.header}}">
+        <div class="preview">
+          <h2><a href="{{ highlight.url }}">{{ highlight.header }}</a></h2>
+          <p>{{ highlight.pretext }}</p>
+        </div>
+      </article>
+    {% endif %}
+  {% endfor %}
+</section>
+<section class="regular-news">
+  {% for news in site.news reversed %}
+    {% if news.highlight == false %}
+      <article onclick="location.href='{{ news.url }}';">
+        <img src="{{news.picture}}" alt="{{news.header}}">
+        <div class="preview">
+          <h2><a href="{{ news.url }}">{{ news.header }}</a></h2>
+          <p>{{ news.pretext }}</p>
+        </div>
+      </article>
+    {% endif %}
+  {% endfor %}
+</section>

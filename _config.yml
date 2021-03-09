@@ -20,6 +20,12 @@
 collections:
   events:
     output: true
+  news:
+    output: true
+    order:
+      - 2021-03-06-club-de-blues.md
+  highlights:
+    output: true
 title: Coolturus
 email: contacto@coolturus.com
 description: >- # this means to ignore newlines until "baseurl:"
