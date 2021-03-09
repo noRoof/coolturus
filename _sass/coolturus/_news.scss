@@ -2,14 +2,23 @@
   margin-bottom: 2rem;
   article {
     display: flex;
+    @include media-query($on-palm) {
+      display: block;
+    }
 
     img {
-      width: 50%;
+      width: 60%;
+
+      @include media-query($on-palm) {
+        width: 100%;
+      }
     }
 
     .preview {
       padding: 2rem;
-      background-color: #f17d8b;
+      //background-color: #f17d8b;
+      //background-color: #ec9e18;
+      background-color: #405a5a;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -34,6 +43,10 @@
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
+
+  @include media-query($on-palm) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
   article {
     box-sizing: border-box;
