@@ -86,6 +86,20 @@ header.home-header {
             color: $primary-green;
           }
         }
+
+        a + a {
+          margin-left: 2rem;
+
+          @include media-query($on-palm) {
+            margin-left: 0;
+            margin-top: 1rem;
+          }
+        }
+
+        @include media-query($on-palm) {
+          text-align: center;
+          flex-direction: column;
+        }
       }
     }
     
@@ -194,15 +208,20 @@ nav {
 }
 
 main {
-  padding: 0 8rem 4rem;
+  padding: 0 4rem 4rem;
   background-color: $background-color;
 
   @include media-query($on-laptop) {
-    padding: 0rem 4rem 2rem;
+    padding: 0rem 2rem 2rem;
   }
 
   @include media-query($on-palm) {
     padding: 1rem;
+  }
+
+  &.landing {
+    max-width: 1150px;
+    margin: auto;
   }
 
   h2 {

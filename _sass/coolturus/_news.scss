@@ -1,6 +1,7 @@
 .highlighted-news {
   margin-bottom: 2rem;
   article {
+    cursor: pointer;
     display: flex;
     @include media-query($on-palm) {
       display: block;
@@ -18,10 +19,11 @@
       padding: 2rem;
       //background-color: #f17d8b;
       //background-color: #ec9e18;
-      background-color: #405a5a;
+      background-color: #557569;
       display: flex;
       flex-direction: column;
       justify-content: center;
+      width: 40%;
 
       h2 {
         margin-top: 0;
@@ -49,6 +51,7 @@
   }
 
   article {
+    cursor: pointer;
     box-sizing: border-box;
     background-color: white;
     box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
@@ -66,5 +69,28 @@
         font-size: 18px;
       }
     }
+  }
+}
+
+.news-content {
+  h1 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  p.small {
+    font-size: 15px;
+  }
+}
+
+.news-container {
+  .image-box {
+    width: 50%;
+    margin: 0 2rem 1rem;
+    float: right;
   }
 }
