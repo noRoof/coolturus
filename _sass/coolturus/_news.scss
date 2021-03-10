@@ -92,5 +92,11 @@
     width: 50%;
     margin: 0 2rem 1rem;
     float: right;
+
+    @include media-query($on-palm) {
+      width: 100%;
+      margin: 0 0 1rem;
+      float: unset;
+    }
   }
 }
