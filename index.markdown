@@ -25,7 +25,7 @@ Seguimos sumando esfuerzos para poder difundir mejor la cultura local, pronto po
 Siendo sponsor tendrás:
 - Beneficios para destacar tus eventos en nuestra agenda cultural
 - Mención en nuestras redes sociales
-- Mención en la esta web
+- Mención en esta web
 
 ## Potenciamos la cultura
 Continuamente estamos evaluando nuevas maneras de fomentar la cultura local, y siempre estamos abiertos a escuchar nuevas propuestas y formar alianzas. ¡No dudes en [Contactarnos](/contacto)!
