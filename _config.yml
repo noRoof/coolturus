@@ -20,7 +20,7 @@
 collections:
   events:
     output: true
-  news:
+  noticias:
     output: true
     order:
       - 2021-03-06-club-de-blues.md

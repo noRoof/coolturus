@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Noticias
+title: Notas y coberturas
 ---
 <section class="highlighted-news">
-  {% for highlight in site.news %}
+  {% for highlight in site.noticias %}
     {% if highlight.highlight %}
       <article>
         <img src="{{highlight.picture}}" alt="{{highlight.header}}">
@@ -16,7 +16,7 @@ title: Noticias
   {% endfor %}
 </section>
 <section class="regular-news">
-  {% for news in site.news reversed %}
+  {% for news in site.noticias reversed %}
     {% if news.highlight == false %}
       <article onclick="location.href='{{ news.url }}';">
         <img src="{{news.picture}}" alt="{{news.header}}">

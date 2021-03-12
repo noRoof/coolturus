@@ -36,6 +36,10 @@
         font-size: 18px;
         color: white;
       }
+
+      @include media-query($on-palm) {
+        width: unset;
+      }
     }
   }
 }
@@ -84,6 +88,10 @@
 
   p.small {
     font-size: 15px;
+  }
+
+  p {
+    text-align: justify;
   }
 }
 
