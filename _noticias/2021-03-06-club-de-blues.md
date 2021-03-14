@@ -5,7 +5,7 @@ picture: https://firebasestorage.googleapis.com/v0/b/coolturus-uy.appspot.com/o/
 pretext: Inicio del Ciclo de Blues de Montevideo presentando el show "Por las vías del Blues" donde estuvieron Los Hermanos McKinely, Blues Bergs, La Máquina a Vapor y Federico Vaucheret.
 header: Lanzamiento del Club de Blues de Uruguay
 comment: Ciclo de Blues de Montevideo presentando el show "Por las vías del Blues"
-highlight: true
+highlight: false
 ---
 <div class="image-box">
 <img src="https://firebasestorage.googleapis.com/v0/b/coolturus-uy.appspot.com/o/news%2Fclubdeblues.png?alt=media&token=2a0b375c-fe34-4e51-802f-bb1e8bf7ee41" alt="Club de Blues de Uruguay"></div>

@@ -19,7 +19,9 @@ title: Notas y coberturas
   {% for news in site.noticias reversed %}
     {% if news.highlight == false %}
       <article onclick="location.href='{{ news.url }}';">
-        <img src="{{news.picture}}" alt="{{news.header}}">
+        <div class="img-container">
+          <img src="{{news.picture}}" alt="{{news.header}}">
+        </div>
         <div class="preview">
           <h2><a href="{{ news.url }}">{{ news.header }}</a></h2>
           <p>{{ news.pretext }}</p>

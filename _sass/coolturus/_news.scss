@@ -73,6 +73,19 @@
         font-size: 18px;
       }
     }
+
+    .img-container {
+      height: calc(32vw - 6rem);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      @include media-query($on-palm) {
+        height: unset;
+        overflow: unset;
+      }
+    }
   }
 }
 
@@ -84,6 +97,7 @@
 
   h3 {
     font-size: 1.3rem;
+    margin-top: 2rem;
   }
 
   p.small {
