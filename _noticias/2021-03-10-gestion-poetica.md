@@ -5,7 +5,7 @@ picture: https://firebasestorage.googleapis.com/v0/b/coolturus-uy.appspot.com/o/
 pretext: Iñaki es coordinador del colectivo Red Escritores UY. Además, fue quien tuvo la iniciativa de coordinar, entre varios colectivos literarios con el objetivo de sumar sinergias, un grupo para compartir lo que cada uno hace. De esto y mucho más conversamos con él.
 comment: Conversamos sobre los ciclos de poesía, la visibilidad que éstos tienen, la fuerza de este tipo de arte y mucho más.
 header: Mano a mano con Iñaki Amilivia
-highlight: true
+highlight: false
 ---
 <div class="image-box">
 <img src="https://firebasestorage.googleapis.com/v0/b/coolturus-uy.appspot.com/o/news%2Fgestionpoetika.jpeg?alt=media&token=624990e4-4e4e-42c9-9c3b-52f00e42327b" alt="Iñaki recitando"></div>
