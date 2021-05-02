@@ -5,6 +5,7 @@ picture: https://firebasestorage.googleapis.com/v0/b/coolturus-uy.appspot.com/o/
 pretext: Andres Pastorini, Ale García, Mercedes García, Matute Correa y Maxi Constenla dan vida al programa de radioteatro Noches Improvisadas. Un programa de compañia que busca construir radioteatro de forma interactiva con la audiencia.
 comment: Conversamos sobre el origen del programa, de qué trata y cómo es la dinámica, las motivaciones para llevar adelante el proyecto, los desafíos de la impro en radio y más.
 header: Andres Pastorini nos cuenta de "Noches Improvisadas"
+linktext: ¡Leer entrevista completa! 
 highlight: true
 ---
 <div class="image-box">

@@ -5,6 +5,7 @@ picture: https://firebasestorage.googleapis.com/v0/b/coolturus-uy.appspot.com/o/
 pretext: El pasado viernes 12 de marzo tuvimos la chance de darnos una vuelta por el club Mandarine (Av. Atilio Pelosi) donde pudimos disfrutar del set de Mateo Seijo presentándose por tercera vez en el local.
 header: Mateo Seijo en Mandarine 12/3
 comment: Mateo Seijo en compañía de Valentín Tort en percusión y Gastón Landín en el teclado dando su show en Mandarine.
+linktext: ¡Leer cobertura completa! 
 highlight: false
 ---
 <div class="image-box">
