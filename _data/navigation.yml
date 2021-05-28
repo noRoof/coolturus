@@ -1,8 +1,10 @@
 - name: About
   link: /
-- name: Contacto
-  link: /contacto
+- name: Formación cultural
+  link: https://formacion.coolturus.com
 - name: Agenda cultural
   link: /eventos
 - name: Notas
   link: /noticias
+- name: Contacto
+  link: /contacto

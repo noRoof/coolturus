@@ -14,6 +14,13 @@ Nuestro primer paso es convertirnos en la agenda cultural local más completa y 
 
 En una primera instancia, en nuestras redes sociales y [aquí](/eventos) en esta web estaremos compartiendo los eventos culturales que se realicen, pero no nos quedaremos en eso. Estamos trabajando en nuevas maneras de poder promocionar la cultura de manera gratuita y pronto estarán disponibles :)
 
+## Formación cultural
+Promovemos la cultura local, y con eso las posibilidades de formación disponibles. Compartimos las propuestas de formación relacionadas a la cultura y el arte en Uruguay, teniendo como objetivo lograr el tablero más completo posible de cursos, talleres, carreras y otros tipos de formación.
+
+Hasta el momento sumamos oportunidades en actuación, música, danza, instrumentos y literatura, pero seguimos sumando.
+
+Si alguna propuesta que no esté en el sitio, no dudes en [contactarnos](/contacto) que las agregamos sin costo.
+
 ## Notas y coberturas
 Como parte de nuestra misión de difusión cultural, sumamos nuestra sección de [Noticias](/noticias) en la que compartimos reseñas de los eventos que cubrimos y notas realizadas a artistas.
 
