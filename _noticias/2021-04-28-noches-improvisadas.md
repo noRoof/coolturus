@@ -6,7 +6,7 @@ pretext: Andres Pastorini, Ale García, Mercedes García, Matute Correa y Maxi C
 comment: Conversamos sobre el origen del programa, de qué trata y cómo es la dinámica, las motivaciones para llevar adelante el proyecto, los desafíos de la impro en radio y más.
 header: Andres Pastorini nos cuenta de "Noches Improvisadas"
 linktext: ¡Leer entrevista completa! 
-highlight: true
+highlight: false
 ---
 <div class="image-box">
 <img src="https://firebasestorage.googleapis.com/v0/b/coolturus-uy.appspot.com/o/news%2Fnochesimprovisadas_20210430.jpeg?alt=media&token=247a49c4-0851-46b2-9408-2ee23fea837b" alt="Flyer noches improvisadas"></div>

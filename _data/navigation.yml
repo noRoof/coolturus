@@ -1,9 +1,9 @@
 - name: About
   link: /
-- name: Formación cultural
-  link: https://formacion.coolturus.com
 - name: Agenda cultural
-  link: /eventos
+  link: https://coolturus.com/agenda/1
+- name: Formación cultural
+  link: https://coolturus.com/formacion
 - name: Notas
   link: /noticias
 - name: Contacto
