@@ -11,6 +11,9 @@ title: Notas y coberturas
           <h2><a href="{{ highlight.url }}">{{ highlight.header }}</a></h2>
           <p>{{ highlight.pretext }}</p>
           <a href="{{ highlight.url }}">{{ highlight.linktext }}</a>
+          {% if highlight.mentionPhotographer %}
+            <p style="margin-top: 12px;">Foto por {{ highlight.photographer }}</p>
+          {% endif %}
         </div>
       </article>
     {% endif %}
@@ -27,6 +30,9 @@ title: Notas y coberturas
           <h2><a href="{{ news.url }}">{{ news.header }}</a></h2>
           <p>{{ news.pretext }}</p>
           <a href="{{ news.url }}">{{ news.linktext }}</a>
+          {% if news.mentionPhotographer %}
+            <p style="margin-top: 12px;">Foto por {{ news.photographer }}</p>
+          {% endif %}
         </div>
       </article>
     {% endif %}

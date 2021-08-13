@@ -7,6 +7,8 @@ comment: Conversamos sobre el nuevo sencillo, la banda, sus historias y proyecto
 header: Sofía y sus paracaídas presenta ASFIXIA
 linktext: ¡Leer entrevista completa! 
 highlight: true
+mentionPhotographer: true
+photographer: Paul Hernández 
 ---
 <div class="image-box">
 <img src="https://firebasestorage.googleapis.com/v0/b/coolturus-uy.appspot.com/o/news%2FAsfixia.JPG?alt=media&token=1a30d0d3-8ed9-4363-a769-7d6e08be3651" alt="Sofía y Sus Paracaídas"></div>
@@ -50,6 +52,6 @@ Este año lo determinamos como un año de creación, de generar material, nuevas
 Decidimos no parar, al contrario, seguir en movimiento, que la música no pare.
 
 ### Imagino que siempre hay nuevos proyectos en la vuelta ¿Qué se viene en Sofía y sus paracaídas? (Lo que se pueda contar)
-En Agosto va a salir un nuevo EP, acompañado con un video clip. Ya queremos que salga! Ja
+En Diciembre va a salir un nuevo EP, acompañado con un video clip. Ya queremos que salga! Ja
 
 Pero mucha energía en este nuevo material que va a salir, nuevamente producido por MAX CAPOTE.
