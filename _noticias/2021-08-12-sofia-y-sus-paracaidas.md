@@ -6,7 +6,7 @@ pretext: ASFIXIA es el nuevo sencillo de la banda, con fecha de lanzamiento el 5
 comment: Conversamos sobre el nuevo sencillo, la banda, sus historias y proyectos.
 header: Sofía y sus paracaídas presenta ASFIXIA
 linktext: ¡Leer entrevista completa! 
-highlight: true
+highlight: false
 mentionPhotographer: true
 photographer: Paul Hernández 
 ---
