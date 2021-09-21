@@ -226,6 +226,10 @@ main {
     font-size: 36px;
     color: #405a5a;
     margin-top: 5rem;
+
+    @include media-query($on-palm) {
+      font-size: 26px;
+    }
   }
 
   p {

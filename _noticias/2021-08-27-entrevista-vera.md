@@ -6,7 +6,7 @@ pretext: VeRa, el proyecto electrónico producido por Verónica Ramos. Su sonido
 comment: Te traemos esta conversación con VeRa, para saber más sobre la banda, sus historias y proyectos.
 header: Mano a mano con VeRa
 linktext: ¡Leer entrevista completa! 
-highlight: true
+highlight: false
 ---
 <div class="image-box">
 <img src="https://firebasestorage.googleapis.com/v0/b/coolturus-uy.appspot.com/o/news%2FVeRa%20nota.jpeg?alt=media&token=71fdc93b-7929-4d6b-918a-af540577d901" alt="VeRa"></div>
