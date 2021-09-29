@@ -6,7 +6,7 @@ pretext: Teatro Express surge luego de la pandemia como una propuesta para reír
 header: Cobertura de Teatro Express
 comment: La propuesta que involucra un show de stand up, una pieza de improvisación y una breve obra de humor, tendrá su última función el próximo viernes 24 de setiembre.
 linktext: ¡Leer cobertura completa! 
-highlight: true
+highlight: false
 ---
 <div class="image-box">
 <img src="https://firebasestorage.googleapis.com/v0/b/coolturus-uy.appspot.com/o/news%2Falejandria.png?alt=media&token=1bfd8eea-30ac-46c7-a1e9-9023200ca0b4" alt="Teatro Express en Alejandria"></div>
