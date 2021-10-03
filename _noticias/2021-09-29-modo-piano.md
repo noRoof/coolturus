@@ -6,7 +6,7 @@ pretext: El Imperio Bar y Anticuario, en la esquina de Tristán Narvaja y Cerro 
 header: Modo Piano en El Imperio
 comment: Un ciclo semanal de shows, único, con entrada libre y gratuita, que pretende ser, cada jornada, irrepetible.
 linktext: ¡Leer cobertura completa! 
-highlight: true
+highlight: false
 ---
 <div class="image-box">
 <img src="https://firebasestorage.googleapis.com/v0/b/coolturus-uy.appspot.com/o/news%2Fmodopiano_coolturus.jpeg?alt=media&token=d0294f83-ca6a-4b9c-b359-b3520a7dad3e" alt="Coolturus en Modo Piano"></div>
