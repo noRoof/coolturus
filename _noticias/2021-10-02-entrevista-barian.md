@@ -4,7 +4,7 @@ author: Sofia Olivera
 picture: https://firebasestorage.googleapis.com/v0/b/coolturus-uy.appspot.com/o/news%2Fbarian1.jpg?alt=media&token=e8a7bb55-63d6-4d53-abf8-ee195839336a
 pretext: Barian Claro presenta su nuevo EP "Que el juego nos encuentre". Una lesión de rodilla le impidió ser el próximo Chino Recoba, eso lo llevó a la música y a esta entrevista que te traemos.
 header: Mano a mano con Barian Claro
-comment: Te traemos esta conversación con Barian Claro, para saber más sobre sus comienzos, sus historias y proyectos.
+comment: Te traemos esta conversación con Barian Claro, para saber más sobre sus comienzos, us historia y sus proyectos.
 linktext: ¡Leer entrevista completa! 
 highlight: true
 ---
