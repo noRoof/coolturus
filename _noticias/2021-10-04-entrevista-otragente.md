@@ -2,7 +2,7 @@
 layout: news
 author: Sofia Olivera
 picture: https://firebasestorage.googleapis.com/v0/b/coolturus-uy.appspot.com/o/news%2Fotragente.jpg?alt=media&token=d81dcf2e-b00e-44c3-8cca-9ad4e1e2fd06
-pretext: Otra Gente lanza el video de "Voy girando" y lo usamos como excusa para hablar con Guille sobre los comienzos que está teniendo la banda y los próximos proyectos.
+pretext: Otra Gente lanza el video de "Voy girando" y lo usamos como excusa para hablar con Guille sobre el comienzo de la banda y los proyectos que se vienen.
 header: Otra Gente presenta nuevo video
 comment: Entrevistamos a Guille de Otra Gente, y nos cuenta del proceso que viene haciendo en el mundo de la música.
 linktext: ¡Leer entrevista completa! 
