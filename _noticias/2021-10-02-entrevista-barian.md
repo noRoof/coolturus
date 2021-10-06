@@ -6,7 +6,7 @@ pretext: Barian Claro presenta su nuevo EP "Que el juego nos encuentre". Una les
 header: Mano a mano con Barian Claro
 comment: Te traemos esta conversación con Barian Claro, para saber más sobre sus comienzos, us historia y sus proyectos.
 linktext: ¡Leer entrevista completa! 
-highlight: true
+highlight: false
 ---
 <div class="image-box">
 <img src="https://firebasestorage.googleapis.com/v0/b/coolturus-uy.appspot.com/o/news%2Fbarian2.jpg?alt=media&token=96958fc7-a89b-4759-a595-f615b0bdd418" alt="Barian Claro"></div>
