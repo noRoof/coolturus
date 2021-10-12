@@ -6,7 +6,7 @@ pretext: Otra Gente lanza el video de "Voy girando" y lo usamos como excusa para
 header: Otra Gente presenta nuevo video
 comment: Entrevistamos a Guille de Otra Gente, y nos cuenta del proceso que viene haciendo en el mundo de la música.
 linktext: ¡Leer entrevista completa! 
-highlight: true
+highlight: false
 ---
 <div class="image-box">
 <img src="https://firebasestorage.googleapis.com/v0/b/coolturus-uy.appspot.com/o/news%2Fotragentevoygirando.jpg?alt=media&token=9364a2a8-1ed6-4404-92e4-8c2170a04609" alt="Voy girando"></div>
