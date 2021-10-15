@@ -6,7 +6,7 @@ pretext: Un cruce de mundos, un viaje que bordea los sentidos, donde distintos e
 header: Entrevista a Living Room
 comment: La muestra final de carrera de las generaciones 2018 y 2019 de la Formación en Artes del Movimiento - InDans se presenta en el Teatro Victoria los jueves de octubre, y ya agotó todas sus funciones.
 linktext: ¡Leer entrevista completa! 
-highlight: false
+highlight: true
 ---
 <div class="image-box">
 <img src="https://firebasestorage.googleapis.com/v0/b/coolturus-uy.appspot.com/o/news%2Flivingroom.jpg?alt=media&token=024207f9-026a-47d0-acfb-524883fb2691" alt="Living Room"></div>
