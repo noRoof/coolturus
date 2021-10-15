@@ -6,7 +6,7 @@ pretext: Las emociones de Anselmo y Marcela se disparan descontroladamente cuand
 header: Cobertura de El Divorcio
 comment: La segunda temporada de la obra escrita por Fabian Mainero y dirigida por Joana Motta se reestrenó el pasado viernes y tendrá 3 funciones más los próximos viernes de octubre.
 linktext: ¡Leer entrevista completa! 
-highlight: true
+highlight: false
 mentionPhotographer: true
 photographer: Claudia Forcade 
 ---
